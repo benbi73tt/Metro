@@ -31,18 +31,7 @@ a:hover {
 }
 
 body {
-    width: 100%;
-    height: 100%;
     color: #333333;
-    background: #e2e2e2;
-}
-
-html {
-    height: 100%;
-}
-
-.wrapper {
-    height: 100%;
 }
 
 .container {
@@ -56,8 +45,11 @@ html {
 }
 
 .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 30px;
-    margin-top: 90px;
     background: gray;
 }
 
@@ -67,8 +59,10 @@ html {
 }
 
 .page {
-    background: url(../images/beckground.jpg) center no-repeat;
-    background-size: cover;
+    background: url(/images/beckground.jpg) no-repeat;
+    background-size: 120%;
+    width: 100%;
+    height: 100%;
 }
 
 .menu a {
@@ -89,10 +83,39 @@ html {
 }
 
 .menu {
+    margin-top: 20px;
     font-size: 1.3em;
     text-align: center;
     margin-left: 20px;
     background: rgba(211, 211, 211, 0.5);
     width: 200px;
     padding: 0px 10px 10px 5px;
+    float: left;
+}
+
+.Bestiarii {
+    position: relative;
+    border: 1px solid silver;
+    float: left;
+    margin: 50px;
+    height: 500px;
+    width: 75%;
+}
+
+img {
+    float: left;
+    width: 40%;
+}
+
+#stai {
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    float: left;
+    width: 55%;
+    border: 1px solid red;
+    margin-left: 30px;
+    font-size: 1.4em;
 }
