@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100%;
+    padding-bottom: 90px;
+}
+
+.container {
+    background: url();
+    background-size: 100%;
+    margin: 0px auto;
+    min-width: 1340px;
+    max-width: 1400px;
+    text-align: left;
+    border: 0px solid #000;
+}
+
+.footer {
+    height: 90px;
+    margin-top: -90px;
+    background: gray;
+}
+
+.header {
+    background: gray;
+    font-family: segoe script;
+}
+
+.page {
+    background: url(../images/beckground.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.menu a {
+    font-family: segoe script;
+    color: white;
+}
+
+.menu li {
+    margin: 20px 0 0 0;
+}
+
+.menu {
+    background: rgba(211, 211, 211, 0.5);
+    width: 200px;
+}
+
+.Bestiarii {
+    height: 90px;
+}
+
+.Bestiarii p {
+    font-family: segoe script;
+}
