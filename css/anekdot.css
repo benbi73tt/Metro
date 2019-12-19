@@ -32,6 +32,7 @@ a:hover {
 .container {
     background: url();
     background-size: 100%;
+    margin: 0px auto;
     min-width: 1340px;
     max-width: 1400px;
     text-align: left;
@@ -42,14 +43,38 @@ body {
     color: #333333;
 }
 
-.header {
+.container {
+    background: url();
+    background-size: 100%;
+    margin: 0px auto;
+    min-width: 1340px;
+    max-width: 1400px;
+    text-align: left;
+    border: 0px solid #000;
+}
+
+.footer {
+    position: relative;
+    margin-top: 60%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
     background: #ff7b00b6;
     color: white;
     font-family: segoe script;
 }
 
+.header {
+    height: 40px;
+    font-size: 0.75em;
+    background: #ff7b006b;
+    color: white;
+    font-family: segoe script;
+}
+
 .page {
-    background: url(https://cdn.discordapp.com/attachments/657245605667799047/657253789887103010/Metro_Exodus_Tunnel_556214_3840x2400.jpg) no-repeat;
+    background: #f7c686;
     background-size: 100%;
     width: 100%;
 }
@@ -79,29 +104,13 @@ body {
     float: left;
 }
 
-.aboutus {
-    float: left;
-    margin-left: 50px;
-    height: 281px;
-    width: 92%;
-    border-radius: 20px;
-}
-
-h1 {
-    font-size: 1.4em;
-    text-indent: 20;
-    color: rgb(0, 0, 0);
-    background-color: rgba(165, 142, 42, 0.438);
-}
-
-.footer {
+.anek {
+    height: 300px;
+    border: 1px solid sienna;
+    margin-top: 20px;
     position: relative;
-    margin-top: 60%;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    background: #ff7b00b6;
-    color: white;
-    font-family: segoe script;
+    border: 1px solid silver;
+    float: left;
+    height: auto;
+    width: 92%;
 }
