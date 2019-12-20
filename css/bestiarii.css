@@ -12,7 +12,7 @@
     /*Удаление выделения input*/
 }
 
-a {
+.menu a {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px#61b4fc;
     background: #ff7b00;
     border: 1px solid #ff7b00;
@@ -23,7 +23,7 @@ a {
     -webkit-transition: all.6s ease;
 }
 
-a:hover {
+.menu a:hover {
     text-decoration: none;
     transition: all.6s ease;
     -moz-transition: all.6s ease;
@@ -234,13 +234,59 @@ p#anom {
 }
 
 #left img {
-    padding-left: 300px;
+    margin-left: 25%;
     width: 10%;
+}
+
+#Vk {
+    color: black;
+    font-size: 1.5em;
+    border: 1px solid silver;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+
+#Vk p {
+    margin-top: 15px;
+    padding-left: 10px
+}
+
+#Pcht p {
+    margin-top: 20px;
+    padding-left: 20px
+}
+
+#Pcht h3 {
+    padding-left: 20px
+}
+
+#Vk img {
+    margin-top: 2px;
+}
+
+#Pcht {
+    color: black;
+    font-size: 1.5em;
+    border: 1px solid silver;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#Pcht img {
+    margin-top: 2px;
 }
 
 .footer {
     position: relative;
-    margin-top: 60%;
+    margin-top: 25%;
     left: 0;
     bottom: 0;
     width: 100%;
